@@ -32,10 +32,10 @@ const ProductCart: FC<Iprops> = ({ product }) => {
         />
       </div>
       <div className="flex items-center justify-between space-x-2  ">
-        <Button className="bg-indigo-500" width="w-full">
+        <Button className="bg-indigo-500 text-white " width="w-full">
           Edit
         </Button>
-        <Button className="bg-red-500 ">Delete</Button>
+        <Button className="bg-red-500  text-white">Delete</Button>
       </div>
     </div>
   );
