@@ -13,7 +13,11 @@ const ProductCart: FC<Iprops> = ({ product }) => {
       className="
     max-w-sm md:max-w-lg mx-auto md:mx-0 border rounded-md p-2 flex flex-col"
     >
-      <Image imageUrl={imageURL} alt="ProductName" className="rounded-md h-52 w-full lg:object-cover" />
+      <Image
+        imageUrl={imageURL}
+        alt="ProductName"
+        className="rounded-md h-52 w-full lg:object-cover"
+      />
 
       <h3>{title} </h3>
       <p>{textslicer(description)}</p>
